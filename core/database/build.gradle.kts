@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.nuncamaria.database"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 27

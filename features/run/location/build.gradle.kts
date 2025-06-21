@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.nuncamaria.features.run.location"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 27

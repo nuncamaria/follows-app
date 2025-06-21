@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.nuncamaria.turbopace"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.nuncamaria.turbopace"

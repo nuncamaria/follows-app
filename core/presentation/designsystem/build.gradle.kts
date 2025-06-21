@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.nuncamaria.core.presentation.designsystem"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 27
