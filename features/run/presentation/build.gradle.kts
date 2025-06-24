@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.domain)
+    implementation(projects.features.run.domain)
 
     implementation(libs.coil.compose)
     implementation(libs.androidx.activity.compose)

@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.domain)
 
     // To generate MongoDB ID's, because the app is offline first, so we cannot call the id from backend at first.
     // That means that we are going to work with two ids, one generated in local (offline) and another one from backend (online).

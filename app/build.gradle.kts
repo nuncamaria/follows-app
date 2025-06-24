@@ -41,6 +41,21 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.data)
+    implementation(projects.core.database)
+    implementation(projects.core.domain)
+    implementation(projects.core.presentation.designsystem)
+    implementation(projects.core.presentation.ui)
+
+    implementation(projects.auth.data)
+    implementation(projects.auth.domain)
+    implementation(projects.auth.presentation)
+
+    implementation(projects.features.run.data)
+    implementation(projects.features.run.domain)
+    implementation(projects.features.run.presentation)
+    implementation(projects.features.run.location)
+    implementation(projects.features.run.network)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

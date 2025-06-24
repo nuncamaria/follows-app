@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "TurboPace"
 include(":app")
 include(":auth:data")
@@ -34,3 +35,4 @@ include(":features:run:domain")
 include(":features:run:presentation")
 include(":features:run:location")
 include(":features:run:network")
+include(":build-logic:convention")
